@@ -1,54 +1,52 @@
 :root {
-    --brown: #0d6efd;
-    --tan: #ffffff;
-    --teal: #008cff;
-    --lightteal: #ffffff;
-    --light: #0d6efd;
+    --blue: #0d6efd;
+    --white: #ffffff;
+    --lightblue: #008cff;
   }
   ::selection {
-    color: var(--brown);
-    background-color: var(--light);
+    color: var(--blue);
+    background-color: var(--blue);
   }
   
   .custom-navbar {
-    background-color: var(--teal);
+    background-color: var(--lightblue);
   }
   
   .custom-navbar a {
     font-size: 1.5rem;
-    color: var(--lightteal);
+    color: var(--white);
   }
   
   .custom-navbar a:hover {
-    color: var(--light);
+    color: var(--blue);
   }
   
   .custom-btn {
-    background-color: var(--brown);
-    color: var(--tan);
+    background-color: var(--blue);
+    color: var(--white);
   }
   
   .custom-btn:hover {
-    background-color: var(--tan);
-    color: var(--brown);
+    background-color: var(--white);
+    color: var(--blue);
   }
   
   .custom-card {
-    border-color: var(--teal);
-    color: var(--brown);
+    border-color: var(--lightblue);
+    color: var(--blue);
   }
   
   .custom-card-header {
-    background-color: var(--teal);
-    color: var(--lightteal);
+    background-color: var(--lightblue);
+    color: var(--white);
   }
 
   .custom-a {
-    background-color: var(--brown);
-    color: var(--tan);
+    background-color: var(--blue);
+    color: var(--white);
   }
 
   .custom-active {
-    background-color: var(--brown);
-    color: var(--tan);
+    background-color: var(--blue);
+    color: var(--white);
   }
