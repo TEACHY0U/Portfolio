@@ -1,0 +1,54 @@
+:root {
+    --brown: #0d6efd;
+    --tan: #ffffff;
+    --teal: #008cff;
+    --lightteal: #ffffff;
+    --light: #0d6efd;
+  }
+  ::selection {
+    color: var(--brown);
+    background-color: var(--light);
+  }
+  
+  .custom-navbar {
+    background-color: var(--teal);
+  }
+  
+  .custom-navbar a {
+    font-size: 1.5rem;
+    color: var(--lightteal);
+  }
+  
+  .custom-navbar a:hover {
+    color: var(--light);
+  }
+  
+  .custom-btn {
+    background-color: var(--brown);
+    color: var(--tan);
+  }
+  
+  .custom-btn:hover {
+    background-color: var(--tan);
+    color: var(--brown);
+  }
+  
+  .custom-card {
+    border-color: var(--teal);
+    color: var(--brown);
+  }
+  
+  .custom-card-header {
+    background-color: var(--teal);
+    color: var(--lightteal);
+  }
+
+  .custom-a {
+    background-color: var(--brown);
+    color: var(--tan);
+  }
+
+  .custom-active {
+    background-color: var(--brown);
+    color: var(--tan);
+  }
